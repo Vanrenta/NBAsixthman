@@ -1,0 +1,313 @@
+@font-face{
+    font-family: 'Andika';
+    src: url("../polices/AndikaNewBasic-R.ttf");
+}
+
+@font-face{
+    font-family: 'dayrom';
+    src: url("../polices/dayrom.ttf");
+}
+
+@font-face{
+    font-family: 'bangla';
+    src: url("../polices/Bangla_MN.ttf");
+}
+
+h1{
+    font-family: "bangla", arial, sans-serif;
+}
+
+h3{
+    font-family: "bangla", arial, sans-serif;
+}
+
+body{
+    font-family: "shree devanagari 714", sans-serif;
+    background-color: #002c61 /*#0000FF*/;
+    color: white;
+    height: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+header h2{
+    font-size: 0.9em;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 15%;
+    text-align: left;
+    padding-right: 10px;
+    float: left;
+}
+
+footer{
+    border: 2px solid black;
+}
+
+a img{
+    /*border: 2px solid black;*/
+}
+
+section{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 65%;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+article{
+    border: 2px solid black;
+    width: 95%;
+    padding: 0px 10px 0px 10px;
+    margin: 2px 0px 2px 0px;
+}
+
+aside{
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(170, 170, 170, 0.8);
+}
+
+td{
+    border-bottom: 1px solid black;
+}
+
+th{
+    background-color: #BBBBBB;
+}
+
+#classement{
+    display: flex;
+    justify-content: space-around;
+}
+
+.corps{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: top;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex: 1;
+}
+
+#reg{
+    border: 2px solid black;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 40%;
+}
+
+#reg select{
+    width: 30%;
+}
+
+#log{
+    border: 2px solid black;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 40%;
+}
+
+#over_reg{
+    border: 2px solid black;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 45%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: flex-start;*/
+}
+
+li{
+    /*margin-right: 10px;*/
+    margin-bottom: 5px;
+}
+
+#upPass{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+#upPro{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+#modo{
+    border: 2px solid black;
+    margin-left: 20px;
+    padding: 10px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#modo a{
+    background-color: blue;
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.moderatoring{
+    margin: 10px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form p{
+    font-size: 1.2em;
+}
+
+.td{
+    padding-right: 300px;
+}
+
+input[type="submit"]{
+    margin-left: 50%;
+    background-color: blue;
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+input[type="text"]{
+    height: 20px;
+}
+
+input[type='file']{
+    background-color: blue;
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav form{
+    padding-left: 35px;
+}
+
+#player{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border: none;
+    width: 100%;
+}
+
+#teams{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    border: none;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#team{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border: none;
+    width: 100%;
+}
+
+#player a{
+    background-color: blue;
+    padding: 6px 4px 6px 4px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 60%;
+}
+
+#player img{
+    height: 206px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#teams img{
+    height: 175px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+#team img{
+    height: 300px;
+    width: 275px;
+    border: 1px solid black;
+}
